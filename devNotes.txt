@@ -1,0 +1,13 @@
+If lombok is not working properly, check if the plugin in IntelliJ is installed.
+
+----
+Needed to detect beans correctly. (Needed for UserController to detect UserRepository)
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+---
+
+@Entity needs jacarta
+import jakarta.persistence.Entity;
